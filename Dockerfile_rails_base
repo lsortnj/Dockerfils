@@ -7,4 +7,4 @@ RUN source /etc/profile.d/rvm.sh
 RUN /usr/local/rvm/bin/rvm install 2.1.7
 RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | bash
 RUN nvm install v6.2.0
-~
+RUN yum install -y ImageMagick
